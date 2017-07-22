@@ -19,5 +19,4 @@ module.exports = function (app, db) {
 
   app.route('/api/fares')
       .post(airfareHandler.getFare);
-
-};
+}
